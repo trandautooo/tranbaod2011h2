@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lobster&family=Roboto+Mono:wght@200&display=swap');
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Francois One', sans-serif;
+}
+.container{
+	width: 1060px;
+	margin: 0 auto
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: #F2E6D0;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.logo{
+	width: 40%;
+	height: 100px;
+	float: left;
+}
+.logo img{
+	width: 50%;
+	margin-left: 130px;
+	box-sizing: border-box
+}
+.menu{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+.menu ul{
+	list-style :none;
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 70px;
+	line-height: 100px}
+.menu li a{
+	color: #AFBF73;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px
+}
+.menu li a:hover{
+	text-decoration: underline;
+	color: #F2B950
+}
+.menu-2{
+	width: 30%;
+	height: 100px;
+	float: right;
+}
+.menu-2 ul{
+	list-style :none;
+	text-align: center;
+}
+.menu-2 li{
+	display: inline-block;
+	margin-right: 50px;
+	line-height: 100px}
+.menu-2 li a{
+	color: #AFBF73;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	border: 3px solid #AFBF73;
+	box-sizing: border-box;
+	padding: 8px 30px;
+	border-radius: 20px
+}
+.menu-2 li a:hover{
+	text-decoration: underline;
+	color: #F2B950
+}
+/*header*/
+.section-1{
+	width: 100%;
+	height: 700px;
+	background: url("file:///C:/Users/ASUS/Downloads/D2011H2-Nguyen%20Thi%20Bao%20Tran-DCW%20bai%20Final/IMG/1937922043182923805275356308512706007704663n-16236708986162020908107.jpg");
+	background-size: cover;
+	text-align: left}
+.section-1 h1{
+	color: #F2B950;
+	font-size: 72px;
+	margin-left: 40px;
+	padding-top: 90px;
+}
+.section-2{
+	width: 100%;
+	height: 500px;
+	background: #AFBF73;
+	padding: 50px 0;
+	box-sizing: border-box
+}
+.left{
+	width: 40%;
+	height: 400px;
+/*	background: #3DE6D6;*/
+	float: left;
+}
+.right{
+	width: calc(60% - 35px);
+	height: 400px;
+	background: url("file:///C:/Users/ASUS/Downloads/D2011H2-Nguyen%20Thi%20Bao%20Tran-DCW%20bai%20Final/IMG/1-01.jpg");
+	background-size: cover;
+	float: right
+}
+.section-2 h1{
+	color: #F2E6D0;
+	font-size: 30px;
+	text-align: center
+}
+.section-2 p{
+	color: #F2E6D0;
+	font-size: 16px;
+	font-weight: bold;
+}
+.section-2 a{
+	color: #F2E6D0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	border: 3px solid #F2E6D0;
+	padding: 7px 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: center}
+.section-3{
+	width: 100%;
+	height: 880px;
+	background: #F2E6D0;
+	padding: 20px 0;
+	box-sizing: border-box}
+.section-3 h1{
+	color: #AFBF73;
+	font-size: 40px;
+	text-align: center
+}
+.container-2{
+	width: 1180px;
+	margin: 0 auto;}
+.box-1{
+	width: calc(33.33% - 30px);
+	height: 350px;
+	margin: 25px 15px;
+	background: #AFBF73;
+	box-shadow: 5px 25px 30px rgba(0,0,0,0.2);
+	border-radius: 40px;
+	overflow: hidden;
+	float:left;}
+.box-1 img{
+	width: 100%;
+}
+.content{
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+.content span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #F2E6D0
+}
+.content a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #F2E6D0;
+	text-decoration: none
+}
+.content p{
+	margin-top: 14px;
+	font-size: 14px;
+	color: #F2E6D0
+}
+.content img{
+	width: 5%
+}
+.box-2{
+	width: calc(33.33% - 30px);
+	height: 350px;
+	margin: 25px 15px;
+	background: #F2B950;
+	box-shadow: 5px 25px 30px rgba(0,0,0,0.2);
+	border-radius: 40px;
+	overflow: hidden;
+	float:left;}
+.box-2 img{
+	width: 100%;
+}
+.contentbox2{
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+.contentbox2 span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #F2E6D0
+}
+.contentbox2 a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #F2E6D0;
+	text-decoration: none
+}
+.contentbox2 p{
+	margin-top: 14px;
+	font-size: 14px;
+	color: #F2E6D0
+}
+.contentbox2 img{
+	width: 5%
+}
+.section-4{
+	width: 100%;
+	height: 1010px;
+	background: #AFBF73;
+	padding: 30px 0;
+	box-sizing: border-box;
+	text-align: center
+}
+.shape {
+	width: 25%;
+	height: 400px;
+/*	background-color: grey;*/
+	float: left;
+	padding: 10px 0
+}
+.shape img{
+	width: 100%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	padding: 10px 0
+}
+.textbox {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+	box-sizing: border-box
+	
+}
+.textbox span{
+	font-size: 30px;
+	font-weight: bold;
+	color: #F2E6D0;
+}
+.textbox hr{
+	background: #F2E6D0;
+	width: 80%;
+	height: 2px;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: 0
+}
+.iconflower{
+	width: 12.5%;
+/*	background-color: blue;*/
+	float:left;
+	padding: 100px 0;
+	box-sizing: border-box
+}
+.iconflower img{
+	width: 100%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.section-4 h1{
+	font-size: 50px;
+	color: #F2E6D0;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	background: #3E4001;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 0 auto
+}
+.boxtop{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin-bottom: 15px
+}
+.boxtop h1{
+	font-size: 50px;
+	color: #AFBF73;
+}
+.boxleft {
+	width: calc(50% - 15px);
+	height: 200px;
+	float: left;
+	margin: 80px 0px 10px 0px;
+}
+.boxleft img{
+	width: 15%;
+	margin: 0 5px
+}
+.text{
+	width: 100%;
+	margin-left: 115px;
+	margin-bottom: 10px
+}
+.text span{
+	font-size: 20px;
+	color: #AFBF73;
+	font-weight: bold
+}
+.boxright {
+	width: calc(50% - 25px);
+	height: 250px;
+	float: right;
+	margin: 10px 0;
+	background: url("file:///C:/Users/ASUS/Downloads/D2011H2-Nguyen%20Thi%20Bao%20Tran-DCW%20bai%20Final/IMG/d102d6c1f5c4997c7b268b3eda173e86.gif");
+	background-size: cover;
+	border-radius: 30px
+	
+}
+.boxbottom {
+	width: 100%;
+	height: 30px;
+	float: left;
+	text-align: center
+}
+.boxbottom span{
+	font-size: 14px;
+	font-weight: 500;
+	color: #AFBF73;
+}
+.boxbottom a{
+	font-weight: bold;
+	color: #AFBF73;
+	text-decoration: none
+}
+
